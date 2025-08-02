@@ -28,3 +28,12 @@ Terraform updates the system.
 No service needs to know about others.
 The architecture stays **flexible**, **fault‑tolerant**, and **easy to evolve**.
 
+1. git clone https://github.com/davidbmar/eventbridge-orchestrator.git
+2. run each step-xxx script in the directory.
+3. The first script step-000 sets up the .env file.  
+    - This file doesn't actually do anything but setup a .env file which will be used for future steps.
+    - When you have the audio bucket use an audio bucket that you want across all projects you can use a pre-existing bucket.
+
+
+
+
